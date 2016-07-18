@@ -1,0 +1,36 @@
+{
+  "name": "is-lo",
+  "version": "0.1.0",
+  "description": "Check if it is a loopback network interface or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint lib test && ava -v"
+  },
+  "dependencies": {
+    "ipv6-normalize": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint": "^3.1.0",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "author": {
+    "name": "Pine Mizune",
+    "email": "pinemz@gmail.com",
+    "url": "https://github.com/pine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pine/is-lo"
+  },
+  "bugs": {
+    "url": "https://github.com/pine/is-lo/issues"
+  },
+  "homepage": "https://github.com/pine/is-lo",
+  "license": "MIT"
+}
