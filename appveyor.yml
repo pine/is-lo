@@ -3,7 +3,6 @@ install:
   - node --version
   - npm --version
 
-  - npm install -g node-gyp
   - npm install -g npm-install-retry
   - npm-install-retry --wait 1000 --attempts 10 --
 
