@@ -27,8 +27,8 @@ console.log(isLo(interfaces[names[0]])) // true or false
 ```
 
 ## Reference
-### `is-lo({ family: 'IPv4', address: '127.0.0.1' })`
-### `is-lo([ { family: 'IPv4', address: '127.0.0.1' }, ... ])`
+### `isLo({ family: 'IPv4', address: '127.0.0.1' })`
+### `isLo([ { family: 'IPv4', address: '127.0.0.1' }, ... ])`
 - `family` (string): `'IPv4'` or `'IPv6'`
 - `address` (string): IP address
 - **Result** (bool): true if it is loopback network interface
