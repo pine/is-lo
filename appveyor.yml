@@ -1,0 +1,22 @@
+install:
+  - ps: Update-NodeJsInstallation (Get-NodeJsLatestBuild $env:nodejs_version)
+  - node --version
+  - npm --version
+
+  - npm install -g node-gyp
+  - npm install -g npm-install-retry
+  - npm-install-retry --wait 1000 --attempts 10 --
+
+test_script:
+  - npm test
+
+environment:
+  matrix:
+    - nodejs_version: 4
+    - nodejs_version: 6
+
+init:
+  - git config --global core.autocrlf false
+
+build: off
+deploy: off
