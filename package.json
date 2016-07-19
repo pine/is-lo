@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "Check if it is a loopback network interface or not",
   "main": "index.js",
+  "files": [
+    "lib",
+    "index.js",
+    "*.md"
+  ],
   "scripts": {
     "test": "eslint lib test && ava -v"
   },
