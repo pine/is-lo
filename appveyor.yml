@@ -2,9 +2,7 @@ install:
   - ps: Update-NodeJsInstallation (Get-NodeJsLatestBuild $env:nodejs_version)
   - node --version
   - npm --version
-
-  - npm install -g npm-install-retry
-  - npm-install-retry --wait 1000 --attempts 10 --
+  - npm install || npm install
 
 test_script:
   - npm test
