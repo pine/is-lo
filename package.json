@@ -1,6 +1,6 @@
 {
   "name": "is-lo",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Check if it is a loopback network interface or not",
   "main": "index.js",
   "browser": "./dist/is-lo.min.js",
