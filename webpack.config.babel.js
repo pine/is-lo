@@ -10,16 +10,20 @@ module.exports = {
     path: `${__dirname}/dist`,
     filename: 'is-lo.min.js',
   },
+  resolve: {
+    extensions: ['', '.js'],
+  },
   module: {
-    rules: [
+    loaders: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: 'babel-loader',
+        loader: 'babel',
       },
     ],
   },
   plugins: [
+    new webpack.optimize.DedupePlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
     new webpack.optimize.UglifyJsPlugin({
       compress: { warnings: false },
