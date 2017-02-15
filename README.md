@@ -35,4 +35,4 @@ console.log(isLo(interfaces[names[0]])) // true or false
 - **Result** (bool): true if it is loopback network interface
 
 ## License
-MIT
+MIT &copy; Pine Mizune
