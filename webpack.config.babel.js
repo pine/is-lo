@@ -1,7 +1,7 @@
 'use strict'
 
 const webpack = require('webpack')
-const WebpackFailPlugin = require('webpack-fail-plugin')
+const WebpackFailPlugin = require('webpack2-fail-plugin')
 
 module.exports = {
   context: __dirname,
@@ -10,20 +10,16 @@ module.exports = {
     path: `${__dirname}/dist`,
     filename: 'is-lo.min.js',
   },
-  resolve: {
-    extensions: ['', '.js'],
-  },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel',
+        use: 'babel-loader',
       },
     ],
   },
   plugins: [
-    new webpack.optimize.DedupePlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
     new webpack.optimize.UglifyJsPlugin({
       compress: { warnings: false },
