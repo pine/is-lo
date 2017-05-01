@@ -1,7 +1,6 @@
 'use strict'
 
 const webpack = require('webpack')
-const WebpackFailPlugin = require('webpack2-fail-plugin')
 
 module.exports = {
   context: __dirname,
@@ -25,6 +24,5 @@ module.exports = {
       compress: { warnings: false },
       sourceMap: false,
     }),
-    WebpackFailPlugin,
   ],
 }
