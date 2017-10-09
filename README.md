@@ -1,6 +1,8 @@
 is-lo
 -----
 
+[![NPM](https://nodei.co/npm/is-lo.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/is-lo/)
+
 [![npm](https://img.shields.io/npm/v/is-lo.svg?style=flat-square)](https://www.npmjs.org/package/is-lo)
 [![Build Status](https://img.shields.io/travis/pine/is-lo/master.svg?style=flat-square)](https://travis-ci.org/pine/is-lo)
 [![Build Status](https://img.shields.io/appveyor/ci/pine/is-lo/master.svg?style=flat-square&maxAge=2592000)](https://ci.appveyor.com/project/pine/is-lo/branch/master)
