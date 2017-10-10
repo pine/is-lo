@@ -1,8 +1,6 @@
 is-lo
 -----
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/pine/is-lo.svg)](https://greenkeeper.io/)
-
 [![NPM](https://nodei.co/npm/is-lo.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/is-lo/)
 
 [![npm](https://img.shields.io/npm/v/is-lo.svg?style=flat-square)](https://www.npmjs.org/package/is-lo)
