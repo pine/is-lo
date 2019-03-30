@@ -7,7 +7,7 @@ is-lo
 [![Build Status](https://img.shields.io/travis/pine/is-lo/master.svg?style=flat-square)](https://travis-ci.org/pine/is-lo)
 [![Build Status](https://img.shields.io/appveyor/ci/pine/is-lo/master.svg?style=flat-square&maxAge=2592000)](https://ci.appveyor.com/project/pine/is-lo/branch/master)
 [![Dependency Status](https://img.shields.io/david/pine/is-lo.svg?style=flat-square)](https://david-dm.org/pine/is-lo)
-[![devDependency Status](https://img.shields.io/david/dev/pine/is-lo.svg?style=flat-square)](https://david-dm.org/pine/is-lo#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/pine/is-lo.svg?style=flat-square)](https://david-dm.org/pine/is-lo#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/is-lo.svg)](https://greenkeeper.io/)
 
 Check if it is a loopback network interface or not
 
