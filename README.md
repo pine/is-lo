@@ -3,11 +3,12 @@ is-lo
 
 [![NPM](https://nodei.co/npm/is-lo.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/is-lo/)
 
-[![npm](https://img.shields.io/npm/v/is-lo.svg?style=flat-square)](https://www.npmjs.org/package/is-lo)
-[![Build Status](https://img.shields.io/travis/pine/is-lo/master.svg?style=flat-square)](https://travis-ci.org/pine/is-lo)
-[![Build Status](https://img.shields.io/appveyor/ci/pine/is-lo/master.svg?style=flat-square&maxAge=2592000)](https://ci.appveyor.com/project/pine/is-lo/branch/master)
-[![Dependency Status](https://img.shields.io/david/pine/is-lo.svg?style=flat-square)](https://david-dm.org/pine/is-lo)
-[![devDependency Status](https://img.shields.io/david/dev/pine/is-lo.svg?style=flat-square)](https://david-dm.org/pine/is-lo#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/is-lo.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/v/is-lo.svg)](https://www.npmjs.org/package/is-lo)
+[![Build Status](https://travis-ci.org/pine/is-lo.svg?branch=master)](https://travis-ci.org/pine/is-lo)
+[![Build status](https://ci.appveyor.com/api/projects/status/st8aowcrawyg0ga8/branch/master?svg=true)](https://ci.appveyor.com/project/pine/is-lo/branch/master)
+[![Dependency Status](https://img.shields.io/david/pine/is-lo.svg)](https://david-dm.org/pine/is-lo)
+[![devDependency Status](https://img.shields.io/david/dev/pine/is-lo.svg)](https://david-dm.org/pine/is-lo#info=devDependencies)
+[![Greenkeeper badge](https://badges.greenkeeper.io/pine/is-lo.svg)](https://greenkeeper.io/)
 
 Check if it is a loopback network interface or not
 
@@ -37,4 +38,4 @@ console.log(isLo(interfaces[names[0]])) // true or false
 - **Result** (bool): true if it is loopback network interface
 
 ## License
-MIT &copy; Pine Mizune
+MIT &copy; [Pine Mizune](https://profile.pine.moe)
