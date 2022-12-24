@@ -45,7 +45,6 @@ $ yarn test
 ### Publish
 
 ```
-$ yarn version
 $ yarn publish
 ```
 
