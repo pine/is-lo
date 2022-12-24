@@ -11,6 +11,11 @@ $ npm install --save is-lo # for npm users
 $ yarn add is-lo           # for yarn users
 ```
 
+## Breaking Changes
+
+There are breaking changes in v1.0.0.
+See [the v1.0.0 release note](https://github.com/pine/is-lo/releases/tag/v1.0.0) for more details.
+
 ## Features
 
 - Supports TypeScript
