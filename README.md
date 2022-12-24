@@ -6,7 +6,7 @@
 
 ## Getting Started
 
-```
+```sh
 $ npm install --save is-lo # for npm users
 $ yarn add is-lo           # for yarn users
 ```
