@@ -1,22 +1,24 @@
-is-lo
------
+# is-lo &nbsp;[![npm](https://img.shields.io/npm/v/is-lo.svg)](https://www.npmjs.org/package/is-lo) [![build](https://github.com/pine/is-lo/actions/workflows/build.yml/badge.svg)](https://github.com/pine/is-lo/actions/workflows/build.yml) [![License](https://img.shields.io/github/license/emoji-gen/clone-into.svg)](LICENSE)
 
-[![npm](https://img.shields.io/npm/v/is-lo.svg)](https://www.npmjs.org/package/is-lo)
-[![build](https://github.com/pine/is-lo/actions/workflows/build.yml/badge.svg)](https://github.com/pine/is-lo/actions/workflows/build.yml)
-
-Check if it is a loopback network interface or not
+:repeat: Check if it is a loopback network interface or not
 
 ## Getting Started
 
 ```
-$ npm install --save is-lo
+$ npm install --save is-lo # for npm users
+$ yarn add is-lo           # for yarn users
 ```
+
+## Features
+
+- Supports TypeScript
+- Supports both CommonJS and ESModules
 
 ## Usage
 
 ```js
-const os = require('os')
-const isLo = require('is-lo')
+import os from 'node:os'
+import { isLo } from 'is-lo'
 
 const interfaces = os.networkInterfaces()
 const names = Object.keys(interfaces)
