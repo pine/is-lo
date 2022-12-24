@@ -2,6 +2,7 @@ is-lo
 -----
 
 [![npm](https://img.shields.io/npm/v/is-lo.svg)](https://www.npmjs.org/package/is-lo)
+[![build](https://github.com/pine/is-lo/actions/workflows/build.yml/badge.svg)](https://github.com/pine/is-lo/actions/workflows/build.yml)
 
 Check if it is a loopback network interface or not
 
