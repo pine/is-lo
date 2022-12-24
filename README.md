@@ -35,5 +35,19 @@ console.log(isLo(interfaces[names[0]])) // true or false
 - `address` (string): IP address
 - **Result** (bool): true if it is loopback network interface
 
+## Development
+### Test
+
+```
+$ yarn test
+```
+
+### Publish
+
+```
+$ yarn version
+$ yarn publish
+```
+
 ## License
 MIT &copy; [Pine Mizune](https://profile.pine.moe)
