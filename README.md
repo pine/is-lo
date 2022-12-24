@@ -4,6 +4,12 @@
 <br>
 <br>
 
+## Features
+
+- Supports TypeScript
+- Supports both CommonJS and ESModules
+
+
 ## Getting Started
 
 ```sh
@@ -14,12 +20,7 @@ $ yarn add is-lo           # for yarn users
 ## Breaking Changes
 
 There are breaking changes in `v1.0.0`.
-See [the v1.0.0 release note](https://github.com/pine/is-lo/releases/tag/v1.0.0) for more details.
-
-## Features
-
-- Supports TypeScript
-- Supports both CommonJS and ESModules
+See [the release note](https://github.com/pine/is-lo/releases/tag/v1.0.0) for more details.
 
 ## Usage
 
