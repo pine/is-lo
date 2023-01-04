@@ -23,10 +23,23 @@ There are breaking changes in `v1.0.0`.
 See [the release note](https://github.com/pine/is-lo/releases/tag/v1.0.0) for more details.
 
 ## Usage
+### ESModules
 
 ```js
 import os from 'node:os'
 import { isLo } from 'is-lo'
+
+const interfaces = os.networkInterfaces()
+const names = Object.keys(interfaces)
+
+console.log(isLo(interfaces[names[0]])) // true or false
+```
+
+### CommonJS
+
+```js
+const os = require('node:os')
+const { isLo } = require('is-lo')
 
 const interfaces = os.networkInterfaces()
 const names = Object.keys(interfaces)
